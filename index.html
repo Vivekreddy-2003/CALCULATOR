@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="calculator">
+       
+        <div class="xyz">
+                <p id="ans" class="bold"></p>
+                <p id="mid"></p>
+                <p id="res"></p>
+            </div>
+        <div>
+                <button class="orange1" onclick="ansi('ac')">AC</button>
+                <button class="orange1" onclick="ansi('back')">C</button>
+                <button class="orange1" onclick="ansi('+/-')">()</button>
+                <button class="orange1 fsize1" onclick="ansi('/')">/</button>
+        </div>
+        <div>
+                 <button onclick="ansi('7')">7</button>
+                <button onclick="ansi('8')">8</button>
+                <button onclick="ansi('9')">9</button>
+                <button class="orange1 fsize2" onclick="ansi('*')">*</button>
+        </div>
+        <div>
+                <button onclick="ansi('4')">4</button>
+                <button onclick="ansi('5')">5</button>
+                <button onclick="ansi('6')">6</button>
+                <button onclick="ansi('-')" class="orange1 fsize2">-</button>
+        </div>
+        <div>
+                <button onclick="ansi('1')">1</button>
+                <button onclick="ansi('2')">2</button>
+                <button onclick="ansi('3')">3</button>
+                <button onclick="ansi('+')" class="orange1 fsize2">+</button>
+        </div>
+        <div>
+                <button onclick="ansi('00')">00</button>
+                <button onclick="ansi('0')">0</button>
+                <button class="fsize2"onclick="ansi('.')" >.</button>
+                <button class="orange fsize1" onclick="ansi('=')">=</button>
+        </div>
+       
+        
+    </div>
+    
+</body>
+</html>
